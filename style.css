@@ -1,0 +1,40 @@
+body {
+}
+
+main {
+	background: url('paper.jpg');
+	width: 20%;
+	margin: 2em auto;
+	font-family: 'Lato', sans-serif;
+	padding: 10px 20px 20px 20px;
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+ul {
+	list-style-type: none;
+	padding: 3px 2px;
+	margin: 0;
+}
+
+li {
+	margin-top: 3px;
+}
+
+.x {
+	float: right;
+	background: #ccc;
+	color: red;
+	height: 20px;
+	width: 20px;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.in-cart {
+	font-style: italic;
+	text-decoration:line-through
+}
