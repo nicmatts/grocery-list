@@ -3,10 +3,11 @@ body {
 
 main {
 	background: url('paper.jpg');
-	width: 20%;
+	width: 245px;
 	margin: 2em auto;
 	font-family: 'Lato', sans-serif;
 	padding: 10px 20px 20px 20px;
+	box-shadow: 1px 1px 1px #bbb
 }
 
 h2 {
@@ -23,6 +24,10 @@ li {
 	margin-top: 3px;
 }
 
+button {
+font-size: 13px;
+}
+
 .x {
 	float: right;
 	background: #ccc;
@@ -37,4 +42,8 @@ li {
 .in-cart {
 	font-style: italic;
 	text-decoration:line-through
+}
+
+.blue {
+	color: blue;
 }
