@@ -3,7 +3,7 @@ body {
 
 main {
 	background: url('paper.jpg');
-	width: 245px;
+	width: 270px;
 	margin: 2em auto;
 	font-family: 'Lato', sans-serif;
 	padding: 10px 20px 20px 20px;
@@ -48,5 +48,14 @@ font-size: 13px;
 	display: none;
 }
 
+.instructions ul {
+	list-style-type: disc;
+	margin-left: 20px;
+}
 
+.happy {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+}
 

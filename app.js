@@ -40,6 +40,10 @@ $(document).ready(function() {
           $('.everything-else').show();
           $('.everything-else-list').append(item);
           break;
+
+        case "Choose a category:":
+          alert("Please choose a category.");
+          break;
       }
     }
     getCategory();
@@ -55,7 +59,7 @@ $(document).ready(function() {
   });
 
   $("#clear").click(function() {
-    $('li').remove();
+    $('li.added').remove();
     $('.container').hide();
   });
 });

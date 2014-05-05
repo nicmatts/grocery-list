@@ -11,12 +11,8 @@
 <body>
 	<main>
 		<h1>My Grocery List</h1>
-
-		Add an item:
-		<input type="text" id="item">
-		<br>
-		Choose a category:
-		<select class="category">
+		<input type="text" id="item" placeholder="Add an item"><select class="category">
+			<option value="category">Choose a category:</option>
 			<option value="Bakery">Bakery</option>
 			<option value="Dairy">Dairy</option>
 			<option value="Household">Household</option>
@@ -26,7 +22,7 @@
 			<option value="Everything-Else">Everything Else</option>
 		</select>
 		<br>
-		<button value="submit" id="submit">Submit</button>
+		<button value="submit" id="submit">Add to list</button>
 
 		<div class="bakery container">
 			<h2>Bakery</h2>
@@ -77,9 +73,16 @@
 			</ul>
 		</div>	
 		<br>
+		<hr>
 		<button value="Clear list" id="clear">Clear list</button>
-
-		<p>Touch an item to cross it off when you add it to your cart.  Press "x" to remove an item.  Use the "clear list" button to remove everything from your list. Happy shopping!</p>
+		
+		<div class="instructions">
+			<ul>
+				<li>Touch an item to cross it off your list when you add it to your cart.</li>
+				<li>Press "x" to remove an item.</li>
+				<li>Use the "clear list" button to remove everything from your list.</li>
+			<p class="happy">Happy shopping!</p>
+		</div>
 	</main>
 </body>
 </html>
