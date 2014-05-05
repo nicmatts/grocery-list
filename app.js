@@ -46,8 +46,12 @@ $(document).ready(function() {
           break;
       }
     }
-    getCategory();
-    $('input').val('');
+    if (value === ""){
+      alert("Please enter an item.");
+    } else {
+      getCategory();
+      $('input').val('');
+    }
   });
 
   $('ul').on('click', '.added', function() {
